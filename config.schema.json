@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "Linksys",
+  "pluginAlias": "Merlin",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -12,6 +12,11 @@
     },
     "password": {
       "title": "Router Password",
+      "type": "string",
+      "required": true
+    },
+    "username": {
+      "title": "Router Username",
       "type": "string",
       "required": true
     }
